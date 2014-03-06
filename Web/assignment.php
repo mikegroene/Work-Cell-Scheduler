@@ -1,23 +1,22 @@
-<?php
-namespace WCS;
-require_once 'Work-Cell-Scheduler/Config/global.php';
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Training Test Copyright 2014 by WebIS Spring 2014 class License Apache 2.0 -->
+<meta charset="UTF-8">
+<title>WCS Training</title>
+</head>
+<body>
+<h1>Assignment</h1>
+<p>App:
+<table border='1'>
 
-class TrainingMatrix{
+<th>This is Table Header</th>
+<tr>"table row 1"</tr>
+<tr1>table row 2</tr1>
 
-	private $people = array('Ann','Bob','Clide');
-	private $line = array(1010,1020,1030,1040);
 
-	public function getPeople() {
-		return $this->people;
-	}
 
-	public function getWorkstations() {
-		return $this->line;
-	}
+</table>
 
-	public function getTraining($person,$workstation){
-		return 0.10;
-	}
-
-}
-?>
+</body>
+</html>
